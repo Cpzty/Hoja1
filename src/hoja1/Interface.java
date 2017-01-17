@@ -1,10 +1,11 @@
 package hoja1;
 
-public class Interface {
+public interface Interface {
 
-	public Interface() {
-		// TODO Auto-generated constructor stub
-		#probando si echamos el codigo en java (JRPG)
-	}
+	public void estado();
+		public void frecuencia();
+		public void cambiar(boolean a);
+		public void guardar(int a);
+		public float seleccionar (int a);
 
 }
