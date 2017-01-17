@@ -1,1 +1,5 @@
-public class Radio implements Interface{}
+public class Radio implements Interfaz{
+
+
+
+}
