@@ -1,10 +1,11 @@
+package hoja1;
+
 public class Radio implements Interface{
 
 private boolean estado;
-private int frecuenciaFM;
-private double frecuenciaAM;
+private double frecuenciaFM;
+private int frecuenciaAM;
 private double boton1;
-private double boton2;
 private double boton2;
 private double boton3;
 private double boton4;
@@ -36,6 +37,10 @@ public Radio(boolean estado, int frecuenciaAM, double frecuenciaFM, double boton
 }
 //constructor de la clase
 
+public Radio() {
+	// TODO Auto-generated constructor stub
+}
+
 public void setEstado(boolean newestado){
   this.estado = newestado;
 }
@@ -44,7 +49,7 @@ public void setFrecuenciaFM(int newfrecuencia){
   this.frecuenciaFM = newfrecuencia;
 }
 
-public void setFrecuenciaAM (double newfrecuencia){
+public void setFrecuenciaAM (int newfrecuencia){
   this.frecuenciaAM = newfrecuencia;
 }
 
@@ -52,7 +57,7 @@ public void setBoton1 (double newboton1){
   this.boton1 = newboton1;
 }
 
-public void setBoton2 (double newboton1){
+public void setBoton2 (double newboton2){
   this.boton2 = newboton2;
 }
 
@@ -64,7 +69,7 @@ public void setBoton4 (double newboton4){
   this.boton4 = newboton4;
 }
 
-public vod setBoton5 (double newboton5){
+public void setBoton5 (double newboton5){
   this.boton5 = newboton5;
 }
 
@@ -101,11 +106,11 @@ public boolean getEstado (){
   return estado;
 }
 
-public int getFrecuenciaFM (){
+public double getFrecuenciaFM (){
   return frecuenciaFM;
 }
 
-public double getFrecuenciaAM(){
+public int getFrecuenciaAM(){
   return frecuenciaAM;
 }
 
@@ -121,9 +126,6 @@ public double getBoton3 (){
   return boton3;
 }
 
-public double getBoton3 (){
-  return boton3;
-}
 
 public double getBoton4 (){
   return boton4;
@@ -163,14 +165,8 @@ public double getBoton12 (){
 //gets de toda la clase
 
 @Override
-public void estado(boolean i){
-  if (i == true){
-    i = false;
-  }
-  else if (i == false) {
-    i = true;
-  }
-  this.estado =  i;
+public void estado(){
+
 }
 
 //ay que probar esto porque no se si esta weno
@@ -180,19 +176,29 @@ public void frecuencia(){
 
 }
 
-@Override
+
 public void cambiar(boolean a){
 
 }
 
 @Override
-public void cambiar(int a){
+public void cambiar(double a){
 
 }
 
 @Override
-public float seleccionar (int a){
+public float seleccionar (double a){
+	float b = 0;
+	return b;
+	
 
 }
+
+@Override
+public void guardar(int a) {
+	// TODO Auto-generated method stub
+	
+}
+
 
 }
