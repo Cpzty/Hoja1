@@ -48,12 +48,151 @@ public void setFrecuenciaAM (double newfrecuencia){
   this.frecuenciaAM = newfrecuencia;
 }
 
+public void setBoton1 (double newboton1){
+  this.boton1 = newboton1;
+}
 
+public void setBoton2 (double newboton1){
+  this.boton2 = newboton2;
+}
 
+public void setBoton3 (double newboton3){
+  this.boton3 = newboton3;
+}
 
+public void setBoton4 (double newboton4){
+  this.boton4 = newboton4;
+}
 
+public vod setBoton5 (double newboton5){
+  this.boton5 = newboton5;
+}
+
+public void setBoton6 (double newboton6){
+  this.boton6 = newboton6;
+}
+
+public void setBoton7 (double newboton7){
+  this.boton7 = newboton7;
+}
+
+public void setBoton8 (double newboton8){
+  this.boton8 = newboton8;
+}
+
+public void setBoton9 (double newboton9){
+  this.boton9 = newboton9;
+}
+
+public void setBoton10 (double newboton10){
+  this.boton10 = newboton10;
+}
+
+public void setBoton11 (double newboton11){
+  this.boton11 = newboton11;
+}
+
+public void setBoton12 (double newboton12){
+  this.boton12 = newboton12;
+}
+//sets de todos los atributos de la clase
+
+public boolean getEstado (){
+  return estado;
+}
+
+public int getFrecuenciaFM (){
+  return frecuenciaFM;
+}
+
+public double getFrecuenciaAM(){
+  return frecuenciaAM;
+}
+
+public double getBoton1 (){
+  return boton1;
+}
+
+public double getBoton2 (){
+  return boton2;
+}
+
+public double getBoton3 (){
+  return boton3;
+}
+
+public double getBoton3 (){
+  return boton3;
+}
+
+public double getBoton4 (){
+  return boton4;
+}
+
+public double getBoton5 (){
+  return boton5;
+}
+
+public double getBoton6 (){
+  return boton6;
+}
+
+public double getBoton7 (){
+  return boton7;
+}
+
+public double getBoton8 (){
+  return boton8;
+}
+
+public double getBoton9 (){
+  return boton9;
+}
+
+public double getBoton10 (){
+  return boton10;
+}
+
+public double getBoton11 (){
+  return boton11;
+}
+
+public double getBoton12 (){
+  return boton12;
+}
+//gets de toda la clase
 
 @Override
-public void
+public void estado(boolean i){
+  if (i == true){
+    i = false;
+  }
+  else if (i == false) {
+    i = true;
+  }
+  this.estado =  i;
+}
+
+//ay que probar esto porque no se si esta weno
+
+@Override
+public void frecuencia(){
+
+}
+
+@Override
+public void cambiar(boolean a){
+
+}
+
+@Override
+public void cambiar(int a){
+
+}
+
+@Override
+public float seleccionar (int a){
+
+}
 
 }
