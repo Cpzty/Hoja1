@@ -19,11 +19,28 @@ public class GUI extends JFrame {
 	private JPanel contentPane;
 	private Radio radio;
 	private JLabel label;
+	
+	/**
+	 * frequency es usado para saber si esta en am o fm la radio, es muy importante para saber si se mueve 10 unidades o 0.2
+	 */
 	private int frequency;
+	
+	/**
+	 * las variables a-d son utilizadas para manejar el tag que muestra la estacion ya que usamos conversiones
+	 * de double a string y de string a double
+	 */
 	private String a;
 	private String d;
 	private double b;
 	private double c;
+	
+	/**
+	 * Primero al guardar una estacion  frequency1 hasta frequency12 guarda si la estacion guardada es am o fm
+	 * Al llamar a la estacion guardada, esto le indica a frequency si es am o fm 
+	 * Esto es sumamente importante porque si se pasa de AM a FM por medio de una estacion guardada, esto previene
+	 * que haya problemas porque no se ha cambiado la frequency y por lo tanto podria pasar que 
+	 * en AM se mueva 0.2 unidades en vez de 10
+	 */
 	private int frequency1;
 	private int frequency2;
 	private int frequency3;
@@ -72,6 +89,9 @@ public class GUI extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		/**
+		 * el botom am maneja 530 a 1610 y el FM 87.9 a 107 y algo
+		 */
 		JButton btn_am = new JButton("A.M.");
 		btn_am.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -102,7 +122,10 @@ public class GUI extends JFrame {
 		
 	
 	
-		
+		/**
+		 * el botom back y forward son encargados de mover la estacion, tienen medidas para que no se salga de la frecuencia 
+		 * permitida, si se trata sale un mensaje
+		 */
 		JButton btn_back = new JButton("<--");
 		btn_back.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -159,6 +182,11 @@ public class GUI extends JFrame {
 		btn_fwd.setBounds(353, 64, 53, 23);
 		contentPane.add(btn_fwd);
 		
+		/**
+		 * Del boton 1 al 12 se llama a getBotonX y se inscribe el numero en el tag que muestra la estacion
+		 * La frecuencia se iguala a la de la estacion guardada para evitar problemas de cambios entre AM y FM
+		 */
+		
 		JButton btn_1 = new JButton("1");
 		btn_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -213,6 +241,10 @@ public class GUI extends JFrame {
 		btn_3.setBounds(397, 98, 39, 23);
 		btn_3.setEnabled(false);
 		contentPane.add(btn_3);
+		
+		/**
+		 * Aqui se guarda la estacion y en la variable frequencyX se guarda si era am o fm para que se pueda hacer cambios AM,FM
+		 */
 		
 		JButton btn_g1 = new JButton("Guardar");
 		btn_g1.addActionListener(new ActionListener() {
@@ -594,12 +626,21 @@ public class GUI extends JFrame {
 		btn_g12.setEnabled(false);
 		contentPane.add(btn_g12);
 		
+		/**
+		 * el label muestra la estacion actual
+		 */
+		
 		label = new JLabel("0.00");
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 		label.setFont(new Font("Tahoma", Font.BOLD, 20));
 		label.setBounds(300, 11, 71, 42);
 		label.setVisible(false);
 		contentPane.add(label);
+		
+		/**
+		 * Inicialmente no estan habilitados los botones para simular el off, al apachar el boton on se vuelven disponibles 
+		 * el estado se cambia a on para el atributo de la radio
+		 */
 		
 		JButton btn_on = new JButton("ON");
 		btn_on.addActionListener(new ActionListener() {
@@ -641,6 +682,10 @@ public class GUI extends JFrame {
 		btn_on.setFont(new Font("Tahoma", Font.BOLD, 12));
 		btn_on.setBounds(31, 158, 53, 23);
 		contentPane.add(btn_on);
+		
+		/**
+		 * el boton off hace que los botones no esten disponibles
+		 */
 		JButton btn_off = new JButton("OFF");
 		btn_off.setFont(new Font("Tahoma", Font.BOLD, 12));
 		btn_off.setBounds(94, 158, 64, 23);
@@ -675,6 +720,7 @@ public class GUI extends JFrame {
 				btn_g10.setEnabled(false);
 				btn_g11.setEnabled(false);
 				btn_g12.setEnabled(false);
+				label.setEnabled(false);
 			}
 		});
 	}
