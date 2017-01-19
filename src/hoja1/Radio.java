@@ -197,7 +197,7 @@ public void cambiar(double a){
 public float seleccionar (int a){
 	int b = 0;
 	return b;
-	
+
 }
 public boolean getFrecuencia(int a){
 	if(a==1){
@@ -207,7 +207,7 @@ public boolean getFrecuencia(int a){
 		return false;
 	}
 }
-	
+
 public int checkFrequence(double a){
 	 if(a>109.7){
 		 return 1;
@@ -216,7 +216,7 @@ public int checkFrequence(double a){
 		 return 2;
 	 }
 }
-	 
+
 public String checkEstado(boolean a){
 	if(a == true){
 		return "on";
@@ -225,7 +225,7 @@ public String checkEstado(boolean a){
 		return "off";
 	}
 }
-	 
+
 
 
 
@@ -233,9 +233,25 @@ public String checkEstado(boolean a){
 @Override
 public void guardar(int a) {
 	// TODO Auto-generated method stub
-	
+
 }
 
+@Override
+public boolean getFrecuencia(){
+  boolean x = true;
+  return x;
+}
 
+@Override
+public boolean getEstado(){
+  boolean kappa = false;
+  return kappa;
+}
+
+@Override
+public float getEmisora(){
+  float y = 0;
+  return y;
+}
 
 }
