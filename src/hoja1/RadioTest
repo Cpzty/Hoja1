@@ -1,0 +1,31 @@
+package hoja1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class RadioTest {
+	
+	@Test
+	public void TestCambiar(){
+		Radio test = new Radio();
+		boolean result = test.getFrecuencia(1);
+		assertEquals(true, result);
+		
+	}
+	
+	@Test
+	public void TestcheckFrequence(){
+		Radio test = new Radio();
+		int result = test.checkFrequence(110);
+		assertEquals(1, result);
+	}
+	
+	@Test
+	public void TestcheckEstado(){
+		Radio test = new Radio();
+		String result = test.checkEstado(true);
+		assertEquals("on", result);
+
+}
+}
