@@ -1,3 +1,9 @@
+/**
+*@author Cristian Perez Tay 16011
+*@author Jose Rodolfo Perez 16056
+*@author Christopher Recinos 16005
+*/
+
 package hoja1;
 
 public class Radio implements Interface{
@@ -190,14 +196,14 @@ public void cambiar(double a){
 public float seleccionar (double a){
 	float b = 0;
 	return b;
-	
+
 
 }
 
 @Override
 public void guardar(int a) {
 	// TODO Auto-generated method stub
-	
+
 }
 
 
