@@ -6,6 +6,9 @@ import org.junit.Test;
 
 public class RadioTest {
 	
+	/**
+	 * Metodo para testear el cambio
+	 */
 	@Test
 	public void TestCambiar(){
 		Radio test = new Radio();
@@ -14,7 +17,8 @@ public class RadioTest {
 		
 	}
 	/**
-	 * Este es el metodo que falla para que funcione cambiar el 2 por 1
+	 *Metodo para testear la frecuencia
+	 *Este es el metodo que falla para que funcione cambiar el 2 por 1
 	 */
 	@Test
 	public void TestcheckFrequence(){
@@ -23,6 +27,9 @@ public class RadioTest {
 		assertEquals(2, result);
 	}
 	
+	/**
+	 *metodo para testear el estado
+	 */
 	@Test
 	public void TestcheckEstado(){
 		Radio test = new Radio();
