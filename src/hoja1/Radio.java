@@ -24,7 +24,9 @@ private double boton10;
 private double boton11;
 private double boton12;
 private int checkfrequence;
-//atributos de la clase Radio
+/**
+* Atributos
+*/
 public Radio(boolean estado, int frecuenciaAM, double frecuenciaFM, double boton1, double boton2, double boton3, double boton4, double boton5, double boton6, double boton7, double boton8, double boton9, double boton10, double boton11, double boton12){
   this.estado = estado;
   this.frecuenciaFM = frecuenciaFM;
@@ -42,12 +44,16 @@ public Radio(boolean estado, int frecuenciaAM, double frecuenciaFM, double boton
   this.boton11 = boton11;
   this.boton12 = boton12;
 }
-//constructor de la clase
+/**
+* Constructor
+*/
 
 public Radio() {
 	// TODO Auto-generated constructor stub
 }
-
+/**
+* Sets
+*/
 public void setEstado(boolean newestado){
   this.estado = newestado;
 }
@@ -107,7 +113,9 @@ public void setBoton11 (double newboton11){
 public void setBoton12 (double newboton12){
   this.boton12 = newboton12;
 }
-//sets de todos los atributos de la clase
+/**
+* gets
+*/
 
 public boolean getEstado (){
   return estado;
@@ -169,14 +177,15 @@ public double getBoton11 (){
 public double getBoton12 (){
   return boton12;
 }
-//gets de toda la clase
 
+/**
+* Overrides
+*/
 @Override
 public void estado(){
 
 }
 
-//ay que probar esto porque no se si esta weno
 
 @Override
 public void frecuencia(){
