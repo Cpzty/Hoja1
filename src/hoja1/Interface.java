@@ -7,5 +7,8 @@ public interface Interface {
 		public void cambiar(boolean a);
 		public void guardar(int a);
 		public float seleccionar (int a);
+		public boolean getFrecuencia();
+		public boolean getEstado();
+		public float getEmisora();
 
 }
