@@ -90,7 +90,7 @@ public class GUI extends JFrame {
 		contentPane.setLayout(null);
 		
 		/**
-		 * el botom am maneja 530 a 1610 y el FM 87.9 a 107 y algo
+		 * el botom am maneja 530 a 1610 y el FM 87.9 a 107.4
 		 */
 		JButton btn_am = new JButton("A.M.");
 		btn_am.addActionListener(new ActionListener() {
@@ -123,7 +123,7 @@ public class GUI extends JFrame {
 	
 	
 		/**
-		 * el botom back y forward son encargados de mover la estacion, tienen medidas para que no se salga de la frecuencia 
+		 * el boton back y forward son encargados de mover la estacion, tienen medidas para que no se salga de la frecuencia 
 		 * permitida, si se trata sale un mensaje
 		 */
 		JButton btn_back = new JButton("<--");
