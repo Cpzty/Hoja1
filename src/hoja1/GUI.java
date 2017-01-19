@@ -202,7 +202,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_1.setBounds(236, 98, 39, 23);
+		btn_1.setBounds(200, 98, 54, 23);
 		btn_1.setEnabled(false);
 		contentPane.add(btn_1);
 		
@@ -221,7 +221,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_2.setBounds(316, 98, 39, 23);
+		btn_2.setBounds(303, 98, 55, 23);
 		contentPane.add(btn_2);
 		
 		JButton btn_3 = new JButton("3");
@@ -238,7 +238,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_3.setBounds(397, 98, 39, 23);
+		btn_3.setBounds(397, 98, 55, 23);
 		btn_3.setEnabled(false);
 		contentPane.add(btn_3);
 		
@@ -260,7 +260,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g1.setBounds(219, 124, 71, 23);
+		btn_g1.setBounds(185, 124, 88, 23);
 		btn_g1.setEnabled(false);
 		contentPane.add(btn_g1);
 		
@@ -278,7 +278,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g2.setBounds(300, 124, 71, 23);
+		btn_g2.setBounds(283, 124, 88, 23);
 		btn_g2.setEnabled(false);
 		contentPane.add(btn_g2);
 		
@@ -296,7 +296,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g3.setBounds(381, 124, 71, 23);
+		btn_g3.setBounds(380, 124, 89, 23);
 		btn_g3.setEnabled(false);
 		contentPane.add(btn_g3);
 		
@@ -314,7 +314,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_4.setBounds(236, 158, 39, 23);
+		btn_4.setBounds(200, 158, 54, 23);
 		btn_4.setEnabled(false);
 		contentPane.add(btn_4);
 		
@@ -332,7 +332,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_5.setBounds(316, 158, 39, 23);
+		btn_5.setBounds(303, 158, 55, 23);
 		btn_5.setEnabled(false);
 		contentPane.add(btn_5);
 		
@@ -351,7 +351,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_6.setBounds(397, 158, 39, 23);
+		btn_6.setBounds(397, 158, 55, 23);
 		btn_6.setEnabled(false);
 		contentPane.add(btn_6);
 		
@@ -369,7 +369,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g4.setBounds(219, 182, 71, 23);
+		btn_g4.setBounds(185, 182, 88, 23);
 		btn_g4.setEnabled(false);
 		contentPane.add(btn_g4);
 		
@@ -387,7 +387,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g5.setBounds(300, 182, 71, 23);
+		btn_g5.setBounds(283, 182, 88, 23);
 		btn_g5.setEnabled(false);
 		contentPane.add(btn_g5);
 		
@@ -405,7 +405,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g6.setBounds(381, 182, 71, 23);
+		btn_g6.setBounds(381, 182, 88, 23);
 		btn_g6.setEnabled(false);
 		contentPane.add(btn_g6);
 		
@@ -424,7 +424,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_7.setBounds(236, 216, 39, 23);
+		btn_7.setBounds(200, 216, 54, 23);
 		btn_7.setEnabled(false);
 		contentPane.add(btn_7);
 		
@@ -442,7 +442,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_8.setBounds(316, 216, 39, 23);
+		btn_8.setBounds(303, 216, 55, 23);
 		btn_8.setEnabled(false);
 		contentPane.add(btn_8);
 		
@@ -460,7 +460,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_9.setBounds(397, 216, 39, 23);
+		btn_9.setBounds(397, 216, 55, 23);
 		btn_9.setEnabled(false);
 		contentPane.add(btn_9);
 		
@@ -478,7 +478,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g7.setBounds(219, 242, 71, 23);
+		btn_g7.setBounds(185, 242, 88, 23);
 		btn_g7.setEnabled(false);
 		contentPane.add(btn_g7);
 		
@@ -496,7 +496,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g8.setBounds(300, 242, 71, 23);
+		btn_g8.setBounds(283, 242, 88, 23);
 		btn_g8.setEnabled(false);
 		contentPane.add(btn_g8);
 		
@@ -514,7 +514,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g9.setBounds(381, 242, 71, 23);
+		btn_g9.setBounds(381, 242, 88, 23);
 		btn_g9.setEnabled(false);
 		contentPane.add(btn_g9);
 		
@@ -532,7 +532,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_10.setBounds(230, 271, 45, 23);
+		btn_10.setBounds(200, 271, 54, 23);
 		btn_10.setEnabled(false);
 		contentPane.add(btn_10);
 		
@@ -550,7 +550,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_11.setBounds(310, 271, 45, 23);
+		btn_11.setBounds(303, 271, 55, 23);
 		btn_11.setEnabled(false);
 		contentPane.add(btn_11);
 		
@@ -568,7 +568,7 @@ public class GUI extends JFrame {
 				}
 			}
 		});
-		btn_12.setBounds(397, 271, 45, 23);
+		btn_12.setBounds(397, 271, 55, 23);
 		btn_12.setEnabled(false);
 		contentPane.add(btn_12);
 		
@@ -586,7 +586,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g10.setBounds(219, 297, 71, 23);
+		btn_g10.setBounds(185, 297, 88, 23);
 		btn_g10.setEnabled(false);
 		contentPane.add(btn_g10);
 		
@@ -604,7 +604,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g11.setBounds(300, 297, 71, 23);
+		btn_g11.setBounds(283, 297, 88, 23);
 		btn_g11.setEnabled(false);
 		contentPane.add(btn_g11);
 		
@@ -622,7 +622,7 @@ public class GUI extends JFrame {
 				 }
 			}
 		});
-		btn_g12.setBounds(381, 297, 71, 23);
+		btn_g12.setBounds(381, 297, 88, 23);
 		btn_g12.setEnabled(false);
 		contentPane.add(btn_g12);
 		
@@ -633,7 +633,7 @@ public class GUI extends JFrame {
 		label = new JLabel("0.00");
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 		label.setFont(new Font("Tahoma", Font.BOLD, 20));
-		label.setBounds(300, 11, 71, 42);
+		label.setBounds(268, 11, 152, 42);
 		label.setVisible(false);
 		contentPane.add(label);
 		
