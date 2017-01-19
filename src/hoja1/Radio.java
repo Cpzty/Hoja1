@@ -1,9 +1,3 @@
-/**
-*@author Cristian Perez Tay 16011
-*@author Jose Rodolfo Perez 16056
-*@author Christopher Recinos 16005
-*/
-
 package hoja1;
 
 public class Radio implements Interface{
@@ -23,7 +17,6 @@ private double boton9;
 private double boton10;
 private double boton11;
 private double boton12;
-private int checkfrequence;
 /**
 * Atributos
 */
@@ -117,9 +110,7 @@ public void setBoton12 (double newboton12){
 * gets
 */
 
-public boolean getEstado (){
-  return estado;
-}
+
 
 public double getFrecuenciaFM (){
   return frecuenciaFM;
@@ -262,5 +253,4 @@ public float getEmisora(){
   float y = 0;
   return y;
 }
-
 }
