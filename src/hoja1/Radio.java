@@ -23,6 +23,7 @@ private double boton9;
 private double boton10;
 private double boton11;
 private double boton12;
+private int checkfrequence;
 //atributos de la clase Radio
 public Radio(boolean estado, int frecuenciaAM, double frecuenciaFM, double boton1, double boton2, double boton3, double boton4, double boton5, double boton6, double boton7, double boton8, double boton9, double boton10, double boton11, double boton12){
   this.estado = estado;
@@ -193,17 +194,46 @@ public void cambiar(double a){
 }
 
 @Override
-public float seleccionar (double a){
-	float b = 0;
+public float seleccionar (int a){
+	int b = 0;
 	return b;
-
-
+	
 }
+public boolean getFrecuencia(int a){
+	if(a==1){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+	
+public int checkFrequence(double a){
+	 if(a>109.7){
+		 return 1;
+	 }
+	 else{
+		 return 2;
+	 }
+}
+	 
+public String checkEstado(boolean a){
+	if(a == true){
+		return "on";
+	}
+	else{
+		return "off";
+	}
+}
+	 
+
+
+
 
 @Override
 public void guardar(int a) {
 	// TODO Auto-generated method stub
-
+	
 }
 
 
