@@ -2,6 +2,9 @@ package hoja1;
 
 public interface Interface {
 
+	/**
+	 * Atributos
+	 */
 	public void estado();
 		public void frecuencia();
 		public void cambiar(boolean a);
