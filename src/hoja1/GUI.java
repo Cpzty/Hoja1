@@ -720,7 +720,7 @@ public class GUI extends JFrame {
 				btn_g10.setEnabled(false);
 				btn_g11.setEnabled(false);
 				btn_g12.setEnabled(false);
-				label.setEnabled(false);
+				label.setVisible(false);
 			}
 		});
 	}
