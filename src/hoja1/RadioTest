@@ -13,12 +13,14 @@ public class RadioTest {
 		assertEquals(true, result);
 		
 	}
-	
+	/**
+	 * Este es el metodo que falla para que funcione cambiar el 2 por 1
+	 */
 	@Test
 	public void TestcheckFrequence(){
 		Radio test = new Radio();
 		int result = test.checkFrequence(110);
-		assertEquals(1, result);
+		assertEquals(2, result);
 	}
 	
 	@Test
