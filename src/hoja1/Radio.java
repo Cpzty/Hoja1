@@ -1,3 +1,9 @@
+/**
+*@author Cristian Perez Tay 16011
+*@author Jose Rodolfo Perez 16056
+*@author Christopher Recinos 16005
+*/
+
 package hoja1;
 
 public class Radio implements Interface{
